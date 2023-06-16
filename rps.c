@@ -27,8 +27,8 @@ int main()
     char ch;
     r = comp % 3;
     random = r + 1;
-    printf("enter character:\n1.scissors(s)\n2.rock(r)\n3.papper(p)");
-    scanf("%c", &ch);
+    printf("enter character:\n1.scissors(s)\n2.rock(r)\n3.papper(p)\n");
+    scanf(" %c", &ch);
     printf("you entered:%c\n", ch);
 
     if (random == 1)
